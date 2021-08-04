@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+ .faqHeader {
+            font-size: 26px;
+            margin: 20px;
+        }
+
+        .panel-heading [data-toggle="collapse"]:after {
+            font-family: 'Glyphicons Halflings';
+            content: "e072";
+            /* "play" icon */
+            float: right;
+            color: #F58723;
+            font-size: 16px;
+            line-height: 20px;
+            /* rotate "play" icon from > (right arrow) to down arrow */
+            -webkit-transform: rotate(-90deg);
+            -moz-transform: rotate(-90deg);
+            -ms-transform: rotate(-90deg);
+            -o-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+        }
+
+        .panel-heading [data-toggle="collapse"].collapsed:after {
+            /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            transform: rotate(90deg);
+            color: #454444;
+        }
+
+        .card-block {
+            padding: 2%;
+        }
+.imghelp{
+	max-width:250px;
+	max-height:250px;
+	display:none;
+}
+
+#starterkit, #products_reteb, #rubri, #reteb, #bcsSB, #reteb_rb, #reteb_isb, #house, #coord, #feedForm, #products_IT{
+	display:none;
+}
+div.parentUL {
+	text-align: center;
+	}
+ul { 
+	display: inline-block; 
+	text-align: left; 
+	}

@@ -1,0 +1,192 @@
+@CHARSET "utf-8";
+@import url("colors_button.css");
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+@media only screen and (max-width: 400px) {
+    * {
+        display: none;
+    }
+}
+
+@media all and (max-width:480px) {
+    .mob-btn-full {
+        width: 100%;
+        display: block;
+        margin-right: 0px !important;
+        margin-bottom: 1% !important;
+    }
+
+    .mob-width-swal {
+        width: 32rem !important;
+    }
+
+    .stazioniprm {
+        width: 100% !important;
+    }
+    
+    .mob-status_ON {
+        display:block !important;
+    }
+    .mob-status_OFF {
+        display:none !important;
+    }
+}
+
+@media all and (max-width:992px) {
+    .mob-btn-menu {
+        width: 100%;
+        display: block;
+        margin-right: 0px !important;
+        margin-top: 1% !important;
+    }
+     .mob-width-swal_num {
+        width: 32rem !important;
+    }
+ .select2-search--dropdown .select2-search__field .select2-selection__rendered {
+ width: 80vw;
+ }
+
+}
+
+@media print {
+
+    header,main, .container, .container-fluid{
+        display: none;
+    }
+
+}
+
+body {
+    background: url("bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.display-5 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+#navtop {
+    padding-top: 70px;
+    margin-bottom: 20px;
+}
+
+.navbar-brand img {
+    padding-right: 5px;
+}
+
+.nav-link {
+    color: black !important;
+    font-size: 18px;
+}
+
+main {
+    margin-top: 20px;
+}
+
+footer {
+    background: transparent;
+    color: black;
+
+}
+
+.icon {
+    padding-right: 10%;
+    color: #000000;
+}
+
+.off {
+    background: rgba(255, 255, 255, .5);
+}
+
+.dropdown-item.active {
+    text-shadow: 5px 5px 10px #00a7ff;
+    color: black;
+-webkit-text-emphasis-style: double-circle;
+text-emphasis-style: double-circle;
+    background-color: transparent;
+    padding-right: 5px;
+}
+
+.navbar-brand {
+    padding-top: 0px !important
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#loading_spinner {
+    display: none;
+    margin-left: auto;
+    margin-right: auto
+}
+
+h2,
+h3,
+h4 {
+    color: black;
+}
+
+.customclass {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.bianco {
+    outline: solid thin;
+}
+
+.tdcen {
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+
+#CONT button {
+    margin-bottom: 0;
+}
+
+thead tr th,
+tfoot tr th,
+tbody tr td {
+    padding-left: 0px !important;
+}
+
+button.text-left {
+    margin-bottom: 2px !important;
+}
+
+h5.card-title{
+color:black;}
+
+
+.blurry{
+ -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+  opacity: 0.7;
+    width: 100%;
+    height: 100%;
+   background: #fff;
+    display: block;
+}

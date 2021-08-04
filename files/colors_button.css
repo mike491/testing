@@ -1,0 +1,67 @@
+.btn-purple {
+    background-color: purple;
+    color: white !important;
+}
+
+.btn-pink {
+    background-color: pink;
+    color: black !important;
+}
+
+.btn-teal {
+    background-color: teal;
+    color: white !important;
+}
+
+.btn-cornflower {
+    background-color: #6495ED;
+    color: white !important;
+}
+
+.btn-outline-cornflower{
+    background-color: white;
+border-color: #6495ED;
+    color: #6495ED !important;
+}
+
+.btn-outline-cornflower:hover {
+    background-color: #6495ED;
+    color: white !important;
+}
+
+.btn-outline-cornflower2{
+    background-color: white;
+border-color: #6495ED;
+}
+.btn-outline-cornflower2:hover {
+    background-color: #6495ED;
+    color: white !important;
+}
+
+
+.btn-outline-verde:hover {
+    background-color: #28a745;
+    color: white !important;
+}
+
+.btn-outline-rosso:hover {
+    background-color: #dc3545;
+    color: white !important;
+}
+
+.btn-outline-blu:hover {
+    background-color: #007bff;
+    color: white !important;
+}
+
+
+
+.btn-sbOrange:hover {
+    background-color: #D96F03;
+    color: #0450E9 !important;
+}
+
+.btn-sbBlue:hover {
+    background-color: #0450E9;
+    color: #D96F03 !important;
+}
